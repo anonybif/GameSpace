@@ -1,0 +1,106 @@
+.carousel{
+  overflow: hidden;
+}
+
+/* .carousel h2{
+  margin-bottom: 20px;
+} */
+
+.card-img{
+  width: 100%;
+  height: 30vw;
+} 
+
+.carousel .slick-arrow.slick-prev,
+.carousel .slick-arrow.slick-next {
+  background: #ffffff;
+  width: 35px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  box-shadow: 1px 2px 10px -1px rgb(0 0 0 / 30%);
+}
+
+.carousel .slick-arrow.slick-prev:hover,
+.carousel .slick-arrow.slick-next:hover{
+  
+  background: #efefef;
+  transition: all 0.2s ease-in;
+} 
+
+.carousel .slick-prev {
+  left: 0;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.carousel .slick-next {
+  right: 0;
+  border-bottom-left-radius: 7px;
+  border-top-left-radius: 7px;
+}
+
+.slide-icons{
+  transform: scale(1.2);
+  color: rgb(0, 0, 0);
+}
+
+.slick-prev::before,
+.slick-next::before {
+  display: none;
+}
+
+.slick-slide > div {
+  margin: 0 12px;
+}
+.slick-list {
+  margin: 0 -12px;
+}
+
+@media screen and (max-width: 960px) {
+
+.carousel .slick-arrow.slick-prev,
+.carousel .slick-arrow.slick-next {
+  width: 30px;
+  height: 70px;
+}
+
+.slide-icons{
+  transform: scale(1);
+}
+
+.main-slider{
+  display: inline-block;
+  overflow: hidden;
+}
+
+.card-img{
+  transform: scaleX(1.3);
+  height: 40vw;
+}
+
+}
+
+@media screen and (max-width: 540px) {
+.carousel .slick-arrow.slick-prev,
+.carousel .slick-arrow.slick-next {
+  width: 22px;
+  height: 52px;
+}
+
+.slide-icons{
+  transform: scale(0.8);
+}
+
+.main-slider{
+  display: inline-block;
+  overflow: hidden;
+}
+
+.card-img{
+  transform: scaleX(1.5);
+  height: 50vw;
+}
+
+}
