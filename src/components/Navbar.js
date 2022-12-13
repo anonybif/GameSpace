@@ -30,7 +30,7 @@ function Navbar() {
             <nav className='navbar'>
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                        <img src='assets/images/GameSpaceLogo.webp' alt='GameSpace logo' />
+                        <img src='assets/images/GameSpaceLogo.webp' alt='GameSpace logo' className='logo-icon' />
                         GameSpace
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
@@ -44,7 +44,7 @@ function Navbar() {
                             <Link to='/shop' className='nav-links' onClick={closeMobileMenu}>Shop</Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/news' className='nav-links' onClick={closeMobileMenu}>News</Link>
+                            <Link to='/blog' className='nav-links' onClick={closeMobileMenu}>Blog</Link>
                         </li>
                         <li className='nav-item'>
                             <Link to='/about' className='nav-links' onClick={closeMobileMenu}>About</Link>

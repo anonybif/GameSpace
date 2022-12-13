@@ -9,7 +9,7 @@ export const latestContent = [
     },
     {
         id: 2,
-        title: 'TRIANGLE STRATEGY™',
+        title: 'Triangle Strategy™',
         price: '$59.99',
         category: 'Nintendo Switch',
         linkImg:
@@ -25,7 +25,7 @@ export const latestContent = [
     },
     {
         id: 4,
-        title: 'Super Mario™ 3D World + Bowser’s Fury',
+        title: 'Super Mario™ 3D World',
         price: '$59.99',
         category: 'Nintendo Switch',
         linkImg:

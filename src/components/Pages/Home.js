@@ -1,15 +1,16 @@
 import React from "react";
-import Carousel from "../carousel";
+import Banner from "../Banner";
+import GameDeals from "../GameDeals";
+import GiftCards from "../GiftCards";
 import './Home.css';
 
 function Home() {
     return (
-        <>
-            <Carousel />
-            <div className="cont">
-                <h3>content here</h3>
-            </div>
-        </>
+        <div className="home">
+            <Banner />
+            <GameDeals />
+            <GiftCards />
+        </div>
     )
 }
 
