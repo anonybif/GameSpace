@@ -32,7 +32,7 @@ function Carousel({ type, slides }) {
         prevArrow: < PreviousBtn />,
         nextArrow: <NextBtn />,
         autoplaySpeed: 5000,
-        speed: 1000,
+        speed: 700,
         slidesToShow: 4,
         slidesToScroll: 1,
 
@@ -71,7 +71,7 @@ function Carousel({ type, slides }) {
                         <img alt={card.title} src={card.linkImg} className='game-img' />
                         <div className="slide-text">
                             <p className="title">{card.title}</p>
-                            <p className="category">{card.category}</p>
+                            <p className="platform">{card.platform}</p>
                             <p className="price">{card.price}</p>
                         </div>
                     </div>

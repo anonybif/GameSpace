@@ -4,7 +4,8 @@ import './Shop.css';
 function Shop() {
     return (
         <div className="shop">
-            <p>Shop page</p>
+            <GameDeals />
+            <GiftCards />
         </div>
     )
 }
